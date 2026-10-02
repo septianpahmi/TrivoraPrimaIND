@@ -1,0 +1,11 @@
+@include('layouts.header')
+@include('layouts.navbar')
+<main>
+    @include('components.hero')
+    @include('components.about')
+    @include('components.product')
+    @include('components.service')
+    @include('components.portofolio')
+    @include('components.contact')
+</main>
+@include('layouts.footer')
